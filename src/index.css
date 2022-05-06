@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root, html, body {
+ height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    background-image: url("https://i.guim.co.uk/img/media/550402c630d5c469b0a2b389ee0f5654fb3e266b/0_0_2500_1500/master/2500.jpg?width=1200&quality=85&auto=format&fit=max&s=f2c3e79c9b8971dd61ec6ce2a6fcbe4b");
+
+    
+}
+
+
+*{
+    
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
